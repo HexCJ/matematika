@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Trigonometri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mu.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <nav class="navbar1">
+        <div class="max-width">
+            <div class="logo"><a href="#">Pembelajaran<span> SinCosTan</span></a></div>
+             
+            <ul class="menu">
+                <!-- <li><a href="#Trigonometry" class="menu-btn">Trigonometry</a></li>
+                <li><a href="#Sinus" class="menu-btn">Sinus</a></li>
+                <li><a href="#about" class="menu-btn">Cosius</a></li> -->
+                <li><a href="index.html" class="menu-btn text-decoration-none">Home</a></li>
+                <li><a href="#belajar" class="menu-btn text-decoration-none">Pembelajaran</a></li>
+                <li><a href="#gf" class="menu-btn text-decoration-none">Grafik Sinus</a></li>
+            </ul>
+             
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-2">Belajar apa kita hari ini?</div>
+                <!--<div class="text-1">Hello</div>
+                <div class="text-3">Di Program <span class="typing"></span></div>
+                <a href="mulai.html">Mulai Belajar!</a>-->
+            </div>
+        </div>
+    </section>
+    
+    <div class="pembungkus" id="belajar">
+        <div class="tab_box">
+            <button class="tab_btn active">Trigonometri</button>
+            <button class="tab_btn">Sinus</button>
+            <button class="tab_btn">Costanta</button>
+            <button class="tab_btn">Tangen</button>
+            <div class="line"></div>
+        </div>
+        
+        <div class="content_box" id="Pembelajaran">
+            <div class="content active">
+                <!-- Trigonomtri -->
+                <section class="Trigonometry" id="Trigonometry">
+                    <div class="container">
+                        <div class="row" >
+                            <div class="col1" style="padding-left: 0px; margin-top: 0px;">
+                                <p class="Abou"><b>Apasih Trigonometry?</b></p>
+                            </div>
+                                    <div class="row">
+                                        <div class="col px-1 mb-2">
+                                            <p class="judul"><b>Pengertian</b></p>
+                                            <p class="liss">Trigonometri adalah cabang matematika yang mempelajari hubungan antara sudut dan panjang sisi dalam segitiga. Ini adalah topik penting dalam matematika yang memiliki banyak aplikasi di berbagai bidang seperti fisika, teknik, astronomi, dan lain-lain. Trigonometri juga digunakan untuk memahami dan mengukur fenomena alam seperti pergerakan benda-benda yang berotasi, gelombang, dan lain sebagainya.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">  
+                                        <div class="col px-1">
+                                            <p class="judul"><b>Konsep dasar</b></p>
+                                            <p class="liss">Trigonometri melibatkan tiga fungsi dasar yang dikenal sebagai fungsi trigonometri: sine (sin), cosine (cos), dan tangent (tan). Ketiga fungsi ini dihitung berdasarkan sudut dalam segitiga.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">  
+                                        <div class="col px-1">
+                                            <p class="judul"><b>Rumus Trigonometri lainnya</b></p>
+                                            <p class="liss">Selain fungsi dasar, trigonometri juga melibatkan rumus-rumus seperti Teorema Pythagoras, rumus sudut ganda, rumus sudut tiga kali lipat, dan lainnya.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">  
+                                        <div class="col px-1">
+                                            <p class="judul"><b>Sudut Spesial</b></p>
+                                            <p class="liss">Sudut 0 derajat, 30 derajat, 45 derajat, 60 derajat, dan 90 derajat memiliki nilai fungsi trigonometri yang khusus. Misalnya, $\sin(30^\circ) = 0.5$, $\cos(45^\circ) = \frac{1}{\sqrt{2}}$, dan $\tan(60^\circ) = \sqrt{3}$.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="col px-1 mb-4">
+                                            <p class="judul"><b>Kesimpulan</b></p>
+                                            <p class="liss">Trigonometri adalah topik penting dalam matematika yang melibatkan hubungan antara sudut dan panjang sisi dalam segitiga. Ini memiliki banyak aplikasi dalam berbagai bidang dan membentuk dasar untuk pemahaman fenomena alam yang melibatkan pergerakan dan gelombang.</p>
+                                        </div>
+                                    </div>
+                                </section>
+            </div>
+            <div class="content">
+                <section class="Sinus" id="Sinus">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <p class="abou"><h3><b>Sinus</b></h3></p>
+                            </div>
+                        <div class="row">                
+                            <div class="col ">
+                                <p class="judul"><b>Apasih Sinus?</b></p>
+                                <p class="liss">Fungsi sinus (sin) adalah salah satu fungsi trigonometri paling dasar dan penting dalam matematika. Ini digunakan untuk menghubungkan sudut dalam segitiga dengan panjang sisi berlawanan dalam segitiga tersebut. Fungsi sin memiliki banyak aplikasi dalam berbagai bidang seperti fisika, teknik, musik, dan lainnya.</p>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col">
+                                <p class="judul"><b>Definisi</b></p>
+                                <p class="liss">Fungsi sinus dari suatu sudut θ (dalam derajat atau radian) dalam sebuah segitiga adalah rasio panjang sisi berlawanan terhadap sudut tersebut dibagi oleh panjang sisi miring segitiga.</p>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col">
+                                <p class="judul"><b>Rumus Sinus</b></p>
+                               <p class="liss">Sin(0) = (Panjang sisi berlawanan/panjang sisi miring)</p>
+                                </div>
+                            </div>
+                        <div class="row">
+                            <div class="col">
+                                <p class="judul"><b>Sifat Utama</b></p>
+                                <li class="lis">Batas Nilai:</li>
+                                <p class="liss">Nilai sin θ selalu berada dalam rentang -1 hingga 1. Dengan kata lain, -1 ≤ sin θ ≤ 1.</p>
+                                <li class="lis">Periode</li>
+                                <p class="liss">Fungsi sin memiliki periode 360 derajat (atau 2π radian). Artinya, nilai sin θ berulang setiap 360 derajat atau 2π radian.</p>
+                                <li class="lis">Sudut spesial</li>
+                                <p class="liss"><b>Sin 0°</b> = 0, <b>Sin 30°</b> = 0.5, <b>Sin 45°</b> = √2/2 atau sekitar 0.707, <b>Sin 60°</b> = √3/2 atau sekitar 0.866, <b>Sin 90°</b>> = 1,</p>
+                        <div class="row"> 
+                            <div class="col">
+                                <p class="judul"><b>Aplikasi</b></p>
+                                <p class="liss">Fungsi sinus digunakan dalam berbagai aplikasi seperti pemodelan gelombang suara, getaran mekanis, analisis sinyal, dan banyak lagi. Dalam fisika, sinus juga digunakan untuk memahami fenomena osilasi seperti gerakan harmonik sederhana.</p>
+                            </div>   
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="content">
+                <!-- Cosinus -->
+                <section class="Cosinus" id="Cosinus">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col1" style="padding-left: 0px; margin-top: 0px;">
+                                <p class="Abou"><b>Apa itu Fungsi Kosinus?</b></p>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1 mb-2">
+                                    <p class="judul"><b>Pengertian</b></p>
+                                    <p class="liss">Kosinus (cos) adalah fungsi trigonometri yang menghitung rasio antara panjang sisi berdekatan dengan sudut tertentu dalam sebuah segitiga terhadap panjang sisi miring.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1">
+                                    <p class="judul"><b>Penggunaan</b></p>
+                                    <p class="liss">Fungsi kosinus digunakan untuk menghitung perbandingan antara panjang sisi berdekatan dengan sudut tertentu terhadap panjang sisi miring dalam sebuah segitiga.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1">
+                                    <p class="judul"><b>Rumus</b></p>
+                                    <p class="liss">Rumus fungsi kosinus untuk sudut θ dalam sebuah segitiga adalah: $\cos(\theta) = \frac{{\text{Panjang sisi berdekatan}}}{{\text{Panjang sisi miring}}}$.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1">
+                                    <p class="judul"><b>Nilai Khusus</b></p>
+                                    <p class="liss">Beberapa sudut tertentu memiliki nilai kosinus yang khusus. Contohnya, $\cos(30^\circ) = \frac{\sqrt{3}}{2}$, $\cos(60^\circ) = \frac{1}{2}$, dan $\cos(90^\circ) = 0$.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1 mb-4">
+                                    <p class="judul"><b>Contoh Penerapan</b></p>
+                                    <p class="liss">Fungsi kosinus umumnya digunakan dalam pemecahan masalah trigonometri di berbagai bidang seperti matematika, fisika, dan teknik.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            
+            
+
+
+            <div class="content">
+                <!-- Tangen -->
+                <section class="Tangen" id="Tangen">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col1" style="padding-left: 0px; margin-top: 0px;">
+                                <p class="Abou"><b>Apa itu Fungsi Tangen?</b></p>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1 mb-2">
+                                    <p class="judul"><b>Pengertian</b></p>
+                                    <p class="liss">Tangen (tan) adalah salah satu fungsi trigonometri yang menghitung rasio antara panjang sisi berlawanan sudut tertentu dalam segitiga dengan panjang sisi yang berdekatan dengannya.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1">
+                                    <p class="judul"><b>Penggunaan</b></p>
+                                    <p class="liss">Fungsi tangen digunakan untuk menghitung perbandingan antara panjang sisi berlawanan sudut tertentu dengan panjang sisi yang berdekatan dengannya dalam segitiga.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1">
+                                    <p class="judul"><b>Rumus</b></p>
+                                    <p class="liss">Rumus dari fungsi tangen untuk sudut θ dalam sebuah segitiga adalah: $\tan(\theta) = \frac{{\text{Panjang sisi berlawanan}}}{{\text{Panjang sisi berdekatan}}}$.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1">
+                                    <p class="judul"><b>Nilai Khusus</b></p>
+                                    <p class="liss">Sudut-sudut tertentu memiliki nilai tangen yang khusus. Contohnya, $\tan(45^\circ) = 1$, $\tan(60^\circ) = \sqrt{3}$, dan $\tan(90^\circ)$ tidak terdefinisi (tenden ke tak hingga).</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col px-1 mb-4">
+                                    <p class="judul"><b>Contoh Penerapan</b></p>
+                                    <p class="liss">Fungsi tangen sering digunakan dalam pemecahan masalah trigonometri di bidang matematika, fisika, dan teknik.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>                
+                        <!-- <div class="row">
+                            <div class="col">
+                                <p class="abb"><b>Reference</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <section class="min-height-100vh" id="gf">
+                    <div class="pembungkusgrafik" id="grafiks">
+                        <h1 class="text-center mt-3" style="font-family:'Poppins', sans-serif; font-weight: bold;">Perhitungan Grafik Sinus</h1>
+                        <h2 class="judulgrafik" style="font-family: 'Poppins', sans-serif;">Masukkan Besar Sudut (dalam satuan derajat) :</h2>
+                        <div class="satubaris mt-5">
+                            <input type="number" id="angleInput" style="width: 330px" placeholder="Masukkan sudut ex 90"/>
+                            <button class="btn ms-3" style="background-color: crimson; color: whitesmoke; width: 250px;" onclick="updateGraph()">Update Grafik</button>
+                        </div>
+                        <div id="sinusGraph"></div>
+                    </div>
+                </section>
+                    
+        </div>
+
+        <footer>
+            <span>Created By <a href="jg.html">Kelompok 2</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
